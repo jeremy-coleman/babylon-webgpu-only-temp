@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "target": "es2019",
+    "lib": ["esnext", "dom"],
+    "module": "esnext",
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": false,
+    "strict": false,
+    "sourceMap": false,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "declarationDir": "build/types",
+    "outDir": "build",
+    "allowUnusedLabels": true,
+    "baseUrl": "src"
+  },
+  "include": ["src"],
+  "typedocOptions": {
+    "entryPoints": ["src/hooks"],
+    "out": "docs/hooks"
+  }
+}
