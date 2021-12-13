@@ -15,6 +15,10 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@mobecher/rollup-plugin-glslang": "0.2.0",
+    "vulkan-spirv": "0.0.1",
+    "assimpjs": "0.0.6",
+    "spirv-tools": "20.4.1",
     "google-closure-compiler": "latest",
     "@webgpu/glslang": "0.0.15",
     "@webgpu/shaderc": "0.0.7",
